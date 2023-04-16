@@ -13,7 +13,7 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <header className='fixed top-0 left-0 right-0 px-2'>
-        <div className='w-full h-full py-3 lg:py-5 border-b border-gray-200 flex justify-between lg:justify-start items-center gap-4'>
+        <div className='w-full h-full py-3 lg:py-5 bg-white border-b border-gray-200 flex justify-between lg:justify-start items-center gap-4'>
           <Image src='/logo.png' width={30} height={30} alt='logo' />
           <div className='flex justify-between items-center gap-4 w-fit lg:w-full'>
             <div className='flex flex-grow justify-between gap-10 items-center'>
