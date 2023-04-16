@@ -47,7 +47,7 @@ export default function Home() {
               </div>
             </div>
             <div className='flex justify-start items-center gap-4'>
-              <button className='text-xl font-bold leading-none py-1 px-3 bg-black text-white rounded-md'>
+              <button className='text-xl font-bold leading-none py-2 px-3 bg-black text-white rounded-md'>
                 Get Quizpal free
               </button>
             </div>
