@@ -49,7 +49,7 @@ export default function Home() {
               </div>
             </div>
             <div className='flex justify-start items-center gap-4'>
-              <button className='text-sm lg:text-base font-bold leading-none py-2 px-3 bg-black text-white rounded-md'>
+              <button className='text-sm sm:text-base font-bold leading-none py-2 px-3 bg-black text-white rounded-md'>
                 Get Quizpal free
               </button>
             </div>
@@ -65,7 +65,7 @@ export default function Home() {
             Quizpal is an online workshop for easier, effective quiz handling.
           </h3>
           <button className='inline-flex justify-start items-center gap-2 py-2 px-3 bg-black rounded-md'>
-            <span className='text-sm lg:text-base font-bold leading-none text-white'>Get Quizpal free</span>
+            <span className='text-sm sm:text-base font-bold leading-none text-white'>Get Quizpal free</span>
             <HiArrowSmRight className='text-base lg:text-xl text-white' />
           </button>
         </div>
