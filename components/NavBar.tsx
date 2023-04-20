@@ -20,9 +20,9 @@ function NavBar() {
   }, [])
 
   return (
-    <header className='fixed top-0 inset-x-0 px-2'>
+    <header className='fixed top-0 inset-x-0 px-2 bg-white'>
       <div
-        className={`w-full h-full py-3 lg:py-5 bg-white ${
+        className={`w-full h-full py-3 lg:py-5 ${
           showBottomBorder && 'border-b border-gray-200'
         } flex justify-between lg:justify-start items-center gap-4`}
       >
