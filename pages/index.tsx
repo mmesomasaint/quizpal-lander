@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import { HiArrowSmRight } from 'react-icons/hi'
 import NavBar from '@/components/NavBar'
 
@@ -23,6 +24,9 @@ export default function Home() {
             <span className='text-sm sm:text-base font-bold leading-none text-white'>Get Quizpal free</span>
             <HiArrowSmRight className='text-base lg:text-xl text-white' />
           </button>
+        </div>
+        <div className='w-fit mx-auto my-3'>
+          <Image src='/assets/Happy student.png' width={600} height={600} alt='happy students' />
         </div>
       </main>
     </>
