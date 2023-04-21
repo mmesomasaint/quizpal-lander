@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Crypto Templates</title>
+        <title>Quizpal &#8211; Draft, share & host quiz. With ease.</title>
         <meta name='description' content='Convert texts to quizzes with ease' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
