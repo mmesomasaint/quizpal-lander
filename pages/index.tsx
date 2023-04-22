@@ -26,7 +26,7 @@ export default function Home() {
           </button>
         </div>
         <div className='w-fit mx-auto my-3'>
-          <Image src='/assets/Happy student.png' width={600} height={600} alt='happy students' />
+          <Image src='/assets/all-happy.png' width={1000} height={1000} alt='happy students' />
         </div>
       </main>
     </>
