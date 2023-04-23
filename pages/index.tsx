@@ -25,8 +25,8 @@ export default function Home() {
             <HiArrowSmRight className='text-base lg:text-xl text-white' />
           </button>
         </div>
-        <div className='w-fit mx-auto my-3'>
-          <Image src='/assets/all-happy.png' width={1000} height={1000} alt='happy students' />
+        <div className='w-fit mx-auto'>
+          <Image src='/assets/all-happy.png' width={1200} height={1200} alt='happy students' />
         </div>
       </main>
     </>
