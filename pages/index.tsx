@@ -52,24 +52,25 @@ export default function Home() {
             <div className='mt-4'>
               <div className='mb-5'>
                 <FaRobot className='text-5xl text-[#e4544c]' />
-                <p className='text-xl font-semibold leading-none mt-2'>
+                <p className='text-xl font-bold leading-tight mt-2'>
                   It's hard already to make quiz from a note. Increase speed
                   with quizpal.
                 </p>
               </div>
               <div className=''>
-                <p className='text-xl font-semibold leading-none text-gray-500'>
+                <p className='text-xl font-semibold leading-tight text-[#e4544c]'>
                   Using the GPT-4, combined with DALL-E, the efficiency of this
                   AI is 90% accurate.
                 </p>
               </div>
               <div className='mt-4'>
-                <p className='text-xl font-semibold leading-none text-gray-500'>
-                  Using the GPT-4, Using the GPT-4, combined with DALL-E, the
-                  efficiency of this AI is 90% accurate. combined with DALL-E,
-                  the efficiency of this AI is 90% accurate. It's the efficiency
-                  of this AI is 90% accurate. hard already to make quiz from a
-                  note. Increase speed with quizpal.
+                <p className='text-xl font-medium leading-tight text-gray-500'>
+                  Our AI-powered feature is designed to make quiz creation a
+                  breeze. It uses machine learning algorithms to analyze the
+                  questions you've already written, and then suggests additional
+                  questions that are similar in difficulty and style. This not
+                  only saves you time, but it also ensures that your quizzes are
+                  consistent and of high quality.
                 </p>
               </div>
             </div>
