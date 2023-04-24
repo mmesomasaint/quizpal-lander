@@ -84,6 +84,19 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className='w-full mt-20'>
+          <div className='flex justify-center w-[70%] mx-auto items-end gap-3 mb-8'>
+            <h3 className='w-[70%] text-center text-5xl font-extrabold leading-none'>
+              Create and Host quiz for any number of candidates
+            </h3>
+            <Image
+              src='/assets/peep-host.png'
+              width={150}
+              height={150}
+              alt='host'
+            />
+          </div>
+        </div>
       </main>
     </>
   )
