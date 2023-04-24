@@ -37,34 +37,42 @@ export default function Home() {
           />
         </div>
         <div className='w-full mt-10'>
-          <h3 className='w-[40%] mx-auto text-center text-4xl font-bold leading-none'>
-            Finally, an AI-powered quiz drafter, to save you more time
-          </h3>
-          <div className='w-[70%] mx-auto grid grid-cols-2 place-items-center gap-10'>
+          <div className='flex justify-center w-[70%] mx-auto items-end gap-3 mb-8'>
+            <h3 className='w-[70%] text-center text-5xl font-extrabold leading-none'>
+              Finally, an AI-powered quiz drafter, to save you more time
+            </h3>
+            <Image
+              src='/assets/peep-ai-friend.png'
+              width={150}
+              height={150}
+              alt='ai-friend'
+            />
+          </div>
+          <div className='w-[90%] mx-auto grid grid-cols-2 place-items-center gap-10'>
             <div className='w-fit mt-4'>
               <Image
                 src='/assets/ai-woman-listening.png'
-                width={300}
-                height={300}
+                width={350}
+                height={350}
                 alt='AI drafter'
               />
             </div>
             <div className='mt-4'>
               <div className='mb-5'>
                 <FaRobot className='text-5xl text-[#e4544c]' />
-                <p className='text-xl font-bold leading-tight mt-2'>
+                <p className='text-3xl font-bold leading-tight mt-2'>
                   It's hard already to make quiz from a note. Increase speed
                   with quizpal.
                 </p>
               </div>
-              <div className=''>
-                <p className='text-xl font-semibold leading-tight text-[#e4544c]'>
+              <div className='mt-6'>
+                <p className='text-3xl font-semibold leading-tight text-[#e4544c]'>
                   Using the GPT-4, combined with DALL-E, the efficiency of this
                   AI is 90% accurate.
                 </p>
               </div>
-              <div className='mt-4'>
-                <p className='text-xl font-medium leading-tight text-gray-500'>
+              <div className='mt-6'>
+                <p className='text-2xl font-medium leading-tight text-gray-500'>
                   Our AI-powered feature is designed to make quiz creation a
                   breeze. It uses machine learning algorithms to analyze the
                   questions you've already written, and then suggests additional
