@@ -160,6 +160,23 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <div className='text-center mt-20'>
+          <h2 className='text-5xl font-extrabold text-black leading-none mb-4'>
+            Sign Up Today!
+          </h2>
+          <p className='text-2xl font-medium text-gray-500 leading-tight'>
+            Sign up today and start exploring our vast collection of pre-made
+            quizzes
+          </p>
+          <div className='flex justify-center items-center gap-3 mt-8'>
+            <button className='text-sm sm:text-base font-bold leading-none py-2 px-3 bg-black text-white rounded-md'>
+              Get Quizpal free
+            </button>
+            <span className='font-bold text-sm lg:text-base '>
+              Request a demo
+            </span>
+          </div>
+        </div>
       </main>
     </>
   )
