@@ -65,7 +65,7 @@ export default function Home() {
               <div className='mb-5'>
                 <FaRobot className='text-5xl text-[#e4544c]' />
                 <p className='text-2xl xl:text-3xl font-bold leading-tight mt-2'>
-                  It's hard already to make quiz from a note. Increase speed
+                  It&apos;s hard already to make quiz from a note. Increase speed
                   with quizpal.
                 </p>
               </div>
@@ -79,7 +79,7 @@ export default function Home() {
                 <p className='text-xl xl:text-2xl font-medium leading-tight text-gray-500'>
                   Our AI-powered feature is designed to make quiz creation a
                   breeze. It uses machine learning algorithms to analyze the
-                  questions you've already written, and then suggests additional
+                  questions you&apos;ve already written, and then suggests additional
                   questions that are similar in difficulty and style. This not
                   only saves you time, but it also ensures that your quizzes are
                   consistent and of high quality.
@@ -116,14 +116,14 @@ export default function Home() {
                 <MdOutlineCreateNewFolder className='text-5xl text-black' />
                 <p className='text-xl xl:text-2xl font-semibold leading-tight text-black'>
                   With our flexible hosting options, you can easily deliver the
-                  quiz to any number of candidates, whether they're in the same
+                  quiz to any number of candidates, whether they&apos;re in the same
                   room or across the globe.
                 </p>
               </div>
               <div className='mt-6'>
                 <p className='text-xl xl:text-2xl font-medium leading-tight text-gray-500'>
                   Create and host quizzes for any number of candidates. Whether
-                  you're a teacher, employer, or event organizer, our intuitive
+                  you&apos;re a teacher, employer, or event organizer, our intuitive
                   quiz creation tools and scalable hosting solutions make it
                   easy to create and deliver custom quizzes to your audience.
                 </p>
@@ -157,7 +157,7 @@ export default function Home() {
               <div className='mt-6'>
                 <p className='text-xl xl:text-2xl font-medium leading-tight text-gray-500'>
                   Not only does our quiz bank save you time and effort in
-                  creating new quizzes, but it also ensures that you're
+                  creating new quizzes, but it also ensures that you&apos;re
                   providing your candidates with high-quality content that has
                   been rigorously tested and reviewed by our team of experts.
                 </p>
