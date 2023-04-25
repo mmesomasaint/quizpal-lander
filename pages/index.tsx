@@ -2,6 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { HiArrowSmRight } from 'react-icons/hi'
 import { FaRobot } from 'react-icons/fa'
+import { BsBank } from 'react-icons/bs'
+import { MdOutlineCreateNewFolder } from 'react-icons/md'
 import NavBar from '@/components/NavBar'
 
 export default function Home() {
@@ -95,6 +97,67 @@ export default function Home() {
               height={150}
               alt='host'
             />
+          </div>
+          <div className='w-[90%] mx-auto grid grid-cols-2 place-items-center gap-10'>
+            <div className='w-fit mt-4'>
+              <Image
+                src='/assets/quiz-grader.png'
+                width={350}
+                height={350}
+                alt='Quiz Grader'
+              />
+            </div>
+            <div className='mt-4'>
+              <div className='mb-5'>
+                <MdOutlineCreateNewFolder className='text-5xl text-black' />
+                <p className='text-2xl font-semibold leading-tight text-black'>
+                  With our flexible hosting options, you can easily deliver the
+                  quiz to any number of candidates, whether they're in the same
+                  room or across the globe.
+                </p>
+              </div>
+              <div className='mt-6'>
+                <p className='text-2xl font-medium leading-tight text-gray-500'>
+                  Create and host quizzes for any number of candidates. Whether
+                  you're a teacher, employer, or event organizer, our intuitive
+                  quiz creation tools and scalable hosting solutions make it
+                  easy to create and deliver custom quizzes to your audience.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className='w-full mt-20'>
+          <h3 className='w-[70%] mx-auto text-center text-5xl font-extrabold leading-none'>
+            With our quiz bank, you might not need to create new quiz
+          </h3>
+          <div className='w-[90%] mx-auto grid grid-cols-2 place-items-center gap-10'>
+            <div className='w-fit mt-4'>
+              <Image
+                src='/assets/quiz-box.png'
+                width={350}
+                height={350}
+                alt='Quiz box'
+              />
+            </div>
+            <div className='mt-4'>
+              <div className='mb-5'>
+                <BsBank className='text-5xl text-gray-500' />
+                <p className='text-2xl font-semibold leading-tight text-black mt-2'>
+                  We offer a comprehensive quiz bank that contains thousands of
+                  pre-made quizzes covering a wide range of topics and levels of
+                  difficulty.
+                </p>
+              </div>
+              <div className='mt-6'>
+                <p className='text-2xl font-medium leading-tight text-gray-500'>
+                  Not only does our quiz bank save you time and effort in
+                  creating new quizzes, but it also ensures that you're
+                  providing your candidates with high-quality content that has
+                  been rigorously tested and reviewed by our team of experts.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </main>
