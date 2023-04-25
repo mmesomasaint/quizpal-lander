@@ -39,8 +39,8 @@ export default function Home() {
           />
         </div>
         <div className='w-full mt-10'>
-          <div className='flex justify-center w-[70%] mx-auto items-end gap-3 mb-8'>
-            <h3 className='w-[70%] text-center text-4xl xl:text-5xl font-extrabold leading-none'>
+          <div className='flex justify-center w-[90%] sm:w-[70%] mx-auto items-end gap-3 mb-8'>
+            <h3 className='w-full md:w-[70%] text-center text-3xl sm:text-4xl xl:text-5xl font-extrabold leading-none'>
               Finally, an AI-powered quiz drafter, to save you more time
             </h3>
             <Image
@@ -48,17 +48,17 @@ export default function Home() {
               width={150}
               height={150}
               alt='ai-friend'
-              className='w-[100px] xl:w-[150px]'
+              className='w-[50px] sm:w-[100px] xl:w-[150px]'
             />
           </div>
-          <div className='w-[90%] mx-auto grid grid-cols-2 place-items-center gap-10'>
+          <div className='w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 place-items-center gap-5 md:gap-10'>
             <div className='w-fit mt-4'>
               <Image
                 src='/assets/ai-woman-listening.png'
                 width={350}
                 height={350}
                 alt='AI drafter'
-                className='w-[300px] xl:w-[350px]'
+                className='w-[250px] md:w-[300px] xl:w-[350px]'
               />
             </div>
             <div className='mt-4'>
@@ -89,8 +89,8 @@ export default function Home() {
           </div>
         </div>
         <div className='w-full mt-20'>
-          <div className='flex justify-center w-[70%] mx-auto items-end gap-3 mb-8'>
-            <h3 className='w-[70%] text-center text-4xl xl:text-5xl font-extrabold leading-none'>
+          <div className='flex justify-center w-[90%] sm:w-[70%] mx-auto items-end gap-3 mb-8'>
+            <h3 className='w-full md:w-[70%] text-center text-3xl sm:text-4xl xl:text-5xl font-extrabold leading-none'>
               Create and Host quiz for any number of candidates
             </h3>
             <Image
@@ -98,17 +98,17 @@ export default function Home() {
               width={150}
               height={150}
               alt='host'
-              className='w-[100px] xl:w-[150px]'
+              className='w-[50px] sm:w-[100px] xl:w-[150px]'
             />
           </div>
-          <div className='w-[90%] mx-auto grid grid-cols-2 place-items-center gap-10'>
+          <div className='w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 place-items-center gap-5 md:gap-10'>
             <div className='w-fit mt-4'>
               <Image
                 src='/assets/quiz-grader.png'
                 width={350}
                 height={350}
                 alt='Quiz Grader'
-                className='w-[300px] xl:w-[350px]'
+                className='w-[250px] md:w-[300px] xl:w-[350px]'
               />
             </div>
             <div className='mt-4'>
@@ -132,17 +132,17 @@ export default function Home() {
           </div>
         </div>
         <div className='w-full mt-20'>
-          <h3 className='w-[70%] mx-auto text-center text-4xl xl:text-5xl font-extrabold leading-none'>
+          <h3 className='w-[90%] sm:w-[70%] mx-auto text-center text-3xl sm:text-4xl xl:text-5xl font-extrabold leading-none'>
             With our quiz bank, you might not need to create new quiz
           </h3>
-          <div className='w-[90%] mx-auto grid grid-cols-2 place-items-center gap-10'>
+          <div className='w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 place-items-center gap-5 md:gap-10'>
             <div className='w-fit mt-4'>
               <Image
                 src='/assets/quiz-box.png'
                 width={350}
                 height={350}
                 alt='Quiz box'
-                className='w-[300px] xl:w-[350px]'
+                className='w-[250px] md:w-[300px] xl:w-[350px]'
               />
             </div>
             <div className='mt-4'>
