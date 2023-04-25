@@ -40,7 +40,7 @@ export default function Home() {
         </div>
         <div className='w-full mt-10'>
           <div className='flex justify-center w-[70%] mx-auto items-end gap-3 mb-8'>
-            <h3 className='w-[70%] text-center text-5xl font-extrabold leading-none'>
+            <h3 className='w-[70%] text-center text-4xl xl:text-5xl font-extrabold leading-none'>
               Finally, an AI-powered quiz drafter, to save you more time
             </h3>
             <Image
@@ -48,6 +48,7 @@ export default function Home() {
               width={150}
               height={150}
               alt='ai-friend'
+              className='w-[100px] xl:w-[150px]'
             />
           </div>
           <div className='w-[90%] mx-auto grid grid-cols-2 place-items-center gap-10'>
@@ -57,24 +58,25 @@ export default function Home() {
                 width={350}
                 height={350}
                 alt='AI drafter'
+                className='w-[300px] xl:w-[350px]'
               />
             </div>
             <div className='mt-4'>
               <div className='mb-5'>
                 <FaRobot className='text-5xl text-[#e4544c]' />
-                <p className='text-3xl font-bold leading-tight mt-2'>
+                <p className='text-2xl xl:text-3xl font-bold leading-tight mt-2'>
                   It's hard already to make quiz from a note. Increase speed
                   with quizpal.
                 </p>
               </div>
               <div className='mt-6'>
-                <p className='text-3xl font-semibold leading-tight text-[#e4544c]'>
+                <p className='text-2xl xl:text-3xl font-semibold leading-tight text-[#e4544c]'>
                   Using the GPT-4, combined with DALL-E, the efficiency of this
                   AI is 90% accurate.
                 </p>
               </div>
               <div className='mt-6'>
-                <p className='text-2xl font-medium leading-tight text-gray-500'>
+                <p className='text-xl xl:text-2xl font-medium leading-tight text-gray-500'>
                   Our AI-powered feature is designed to make quiz creation a
                   breeze. It uses machine learning algorithms to analyze the
                   questions you've already written, and then suggests additional
@@ -88,7 +90,7 @@ export default function Home() {
         </div>
         <div className='w-full mt-20'>
           <div className='flex justify-center w-[70%] mx-auto items-end gap-3 mb-8'>
-            <h3 className='w-[70%] text-center text-5xl font-extrabold leading-none'>
+            <h3 className='w-[70%] text-center text-4xl xl:text-5xl font-extrabold leading-none'>
               Create and Host quiz for any number of candidates
             </h3>
             <Image
@@ -96,6 +98,7 @@ export default function Home() {
               width={150}
               height={150}
               alt='host'
+              className='w-[100px] xl:w-[150px]'
             />
           </div>
           <div className='w-[90%] mx-auto grid grid-cols-2 place-items-center gap-10'>
@@ -105,19 +108,20 @@ export default function Home() {
                 width={350}
                 height={350}
                 alt='Quiz Grader'
+                className='w-[300px] xl:w-[350px]'
               />
             </div>
             <div className='mt-4'>
               <div className='mb-5'>
                 <MdOutlineCreateNewFolder className='text-5xl text-black' />
-                <p className='text-2xl font-semibold leading-tight text-black'>
+                <p className='text-xl xl:text-2xl font-semibold leading-tight text-black'>
                   With our flexible hosting options, you can easily deliver the
                   quiz to any number of candidates, whether they're in the same
                   room or across the globe.
                 </p>
               </div>
               <div className='mt-6'>
-                <p className='text-2xl font-medium leading-tight text-gray-500'>
+                <p className='text-xl xl:text-2xl font-medium leading-tight text-gray-500'>
                   Create and host quizzes for any number of candidates. Whether
                   you're a teacher, employer, or event organizer, our intuitive
                   quiz creation tools and scalable hosting solutions make it
@@ -128,7 +132,7 @@ export default function Home() {
           </div>
         </div>
         <div className='w-full mt-20'>
-          <h3 className='w-[70%] mx-auto text-center text-5xl font-extrabold leading-none'>
+          <h3 className='w-[70%] mx-auto text-center text-4xl xl:text-5xl font-extrabold leading-none'>
             With our quiz bank, you might not need to create new quiz
           </h3>
           <div className='w-[90%] mx-auto grid grid-cols-2 place-items-center gap-10'>
@@ -138,19 +142,20 @@ export default function Home() {
                 width={350}
                 height={350}
                 alt='Quiz box'
+                className='w-[300px] xl:w-[350px]'
               />
             </div>
             <div className='mt-4'>
               <div className='mb-5'>
                 <BsBank className='text-5xl text-gray-500' />
-                <p className='text-2xl font-semibold leading-tight text-black mt-2'>
+                <p className='text-xl xl:text-2xl font-semibold leading-tight text-black mt-2'>
                   We offer a comprehensive quiz bank that contains thousands of
                   pre-made quizzes covering a wide range of topics and levels of
                   difficulty.
                 </p>
               </div>
               <div className='mt-6'>
-                <p className='text-2xl font-medium leading-tight text-gray-500'>
+                <p className='text-xl xl:text-2xl font-medium leading-tight text-gray-500'>
                   Not only does our quiz bank save you time and effort in
                   creating new quizzes, but it also ensures that you're
                   providing your candidates with high-quality content that has
@@ -161,10 +166,10 @@ export default function Home() {
           </div>
         </div>
         <div className='text-center mt-20'>
-          <h2 className='text-5xl font-extrabold text-black leading-none mb-4'>
+          <h2 className='text-4xl xl:text-5xl font-extrabold text-black leading-none mb-4'>
             Sign Up Today!
           </h2>
-          <p className='text-2xl font-medium text-gray-500 leading-tight'>
+          <p className='text-xl xl:text-2xl font-medium text-gray-500 leading-tight'>
             Sign up today and start exploring our vast collection of pre-made
             quizzes
           </p>
@@ -178,7 +183,7 @@ export default function Home() {
           </div>
         </div>
         <div className='mt-10 py-3 bg-gray-500'>
-          <p className='text-gray-300 text-xl font-medium'>&copy; 2023 Quizpal</p>
+          <p className='text-gray-300 text-xl font-medium text-center'>&copy; 2023 Quizpal</p>
         </div>
       </main>
     </>
