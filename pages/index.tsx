@@ -183,7 +183,9 @@ export default function Home() {
           </div>
         </div>
         <div className='mt-10 py-3 bg-gray-500'>
-          <p className='text-gray-300 text-xl font-medium text-center'>&copy; 2023 Quizpal</p>
+          <p className='text-gray-300 text-xl font-medium text-center'>
+            &copy; 2023 Quizpal
+          </p>
         </div>
       </main>
     </>
